@@ -6,10 +6,9 @@ using System.Threading.Tasks;
 
 namespace primer_parcial_solid_transporte
 {
-    public interface ITransporte
+    public interface ITransporte 
     {
         void Acelerar(int velocidad);
         void Desacelerar(int velocidad);
-        void guardarEnBD();
     }
 }

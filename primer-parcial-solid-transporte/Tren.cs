@@ -31,11 +31,5 @@ namespace primer_parcial_solid_transporte
                 this._velocidadActual = 0;
             }
         }
-
-        public void guardarEnBD()
-        {
-            TransporteRepository repository = new TransporteRepository();
-            repository.guardar(this);
-        }
     }
 }

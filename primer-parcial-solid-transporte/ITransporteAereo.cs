@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace primer_parcial_solid_transporte
 {
-    internal interface ITransporteAereo
+    internal interface ITransporteAereo : ITransporte
     {
         void Volar(int velocidad);
     }
