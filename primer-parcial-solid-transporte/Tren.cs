@@ -32,11 +32,6 @@ namespace primer_parcial_solid_transporte
             }
         }
 
-        public void Volar(int altitud)
-        {
-            return;
-        }
-
         public void guardarEnBD()
         {
             TransporteRepository repository = new TransporteRepository();

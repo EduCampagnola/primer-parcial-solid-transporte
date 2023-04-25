@@ -8,5 +8,6 @@ namespace primer_parcial_solid_transporte
 {
     internal interface ITransporteAereo
     {
+        void Volar(int velocidad);
     }
 }

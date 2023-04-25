@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace primer_parcial_solid_transporte
 {
-    public class Avion : ITransporte
+    public class Avion : ITransporte,ITransporteAereo
     {
         public string _nombre;
         public int _velocidadActual;
